@@ -1,0 +1,16 @@
+/* -----------------for pie------------------- */
+.closeBtn>span{
+transition: none;
+display: none;
+}
+.closeBtn:hover>span{
+display: block;
+}
+.list4>li>a>strong{
+transition: none;
+display: none;
+}
+.list4>li>a:hover>strong{
+display: block;
+}
+.readMore{position: relative; behavior: url(js/PIE.htc); }
